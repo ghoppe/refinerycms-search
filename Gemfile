@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'refinerycms', '~> 2.1.0'
-gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
+gem 'refinerycms', github: 'refinery/refinerycms'
+gem 'refinerycms-acts-as-indexed', github: 'refinery/refinerycms-acts-as-indexed'
 
 group :development, :test do
-  gem 'refinerycms-testing', '~> 2.1.0'
+  gem 'refinerycms-testing', github: 'refinery/refinerycms'
   gem 'poltergeist'
 
   platforms :jruby do
